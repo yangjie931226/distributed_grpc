@@ -1,0 +1,53 @@
+syntax = "proto3";
+
+package pb;
+option go_package = "./;pb";
+
+service RegistryService{
+    rpc AddRegistion (RegistionRequest) returns (RegistionReply){}
+    rpc RemoveRegistion (RegistionRequest) returns (RegistionReply){}
+}
+
+message RegistionRequest {
+    //服务名
+    string serviceName = 1;
+    //服务地址
+    string serviceUrl = 2;
+    repeated string requiresService =3;
+    string serviceUpdateUrl = 4;
+    string heartbeatUrl = 5;
+
+}
+
+message RegistionReply{
+    //状态码
+    int32 code = 1;
+    //错误信息
+    string msg = 2;
+}
+
+
+service CommonService {
+    rpc UpdateProvdier(PatchRequest) returns (Reply) {}
+    rpc Heatbeat (HeatbeatRequest) returns (Reply) {}
+}
+
+message PatchRequest {
+   message Patch {
+           string name  = 1;
+           string url  = 2;
+      }
+    repeated Patch add  = 1;
+    repeated Patch remove  = 2;
+}
+
+message HeatbeatRequest {
+
+}
+
+message Reply {
+    //状态码
+    int32 code = 1;
+    //错误信息
+    string msg = 2;
+}

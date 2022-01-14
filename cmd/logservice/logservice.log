@@ -1,0 +1,72 @@
+[go]2022/01/14 14:12:30 [grades_service] - 测试日志服务
+
+[go]2022/01/14 14:12:45 [grades_service] - <nil>
+
+[go]2022/01/14 14:12:48 [grades_service] - 测试日志服务
+
+[go]2022/01/14 14:13:01 [grades_service] - <nil>
+
+[go]2022/01/14 14:13:03 [grades_service] - 测试日志服务
+
+[go]2022/01/14 14:13:39 [grades_service] - <nil>
+
+[go]2022/01/14 14:16:51 [grades_service] - 测试日志服务
+
+[go]2022/01/14 14:16:54 [grades_service] - RegistryRemove err: rpc error: code = Unknown desc = service name: grades_service, service url: :5000 not found
+
+
+[go]2022/01/14 14:17:26 [grades_service] - 测试日志服务
+
+[go]2022/01/14 14:17:38 [grades_service] - 测试日志服务
+
+[go]2022/01/14 14:17:41 [grades_service] - RegistryRemove err: rpc error: code = Unknown desc = service name: grades_service, service url: :5000 not found
+
+
+[go]2022/01/14 14:17:42 [grades_service] - 测试日志服务
+
+[go]2022/01/14 14:17:44 [grades_service] - RegistryRemove err: rpc error: code = Unknown desc = service name: grades_service, service url: :5000 not found
+
+
+[go]2022/01/14 14:17:46 [grades_service] - 测试日志服务
+
+[go]2022/01/14 14:17:47 [grades_service] - RegistryRemove err: rpc error: code = Unknown desc = service name: grades_service, service url: :5000 not found
+
+
+[go]2022/01/14 14:17:49 [grades_service] - 测试日志服务
+
+[go]2022/01/14 14:18:36 [grades_service] - 测试日志服务
+
+[go]2022/01/14 14:19:34 [grades_service] - RegistryRemove err: rpc error: code = Unknown desc = service name: grades_service, service url: :5000 not found
+
+
+[go]2022/01/14 14:19:36 [grades_service] - 测试日志服务
+
+[go]2022/01/14 14:19:40 [grades_service] - RegistryRemove err: rpc error: code = Unknown desc = service name: grades_service, service url: :5000 not found
+
+
+[go]2022/01/14 14:51:06 [grades_service] - 测试日志服务
+
+[go]2022/01/14 14:51:19 [portal_service] - 测试日志服务
+
+[go]2022/01/14 14:54:11 [grades_service] - 测试日志服务
+
+[go]2022/01/14 14:54:13 [grades_service] - 测试日志服务
+
+[go]2022/01/14 14:54:15 [portal_service] - 测试日志服务
+
+[go]2022/01/14 14:58:11 [portal_service] - <nil>
+
+[go]2022/01/14 14:58:13 [portal_service] - 测试日志服务
+
+[go]2022/01/14 14:58:47 [portal_service] - Error retrieving students:  parse ":5000/students/1": missing protocol scheme
+
+[go]2022/01/14 14:58:50 [portal_service] - Error retrieving students:  parse ":5000/students/2": missing protocol scheme
+
+[go]2022/01/14 15:07:33 [portal_service] - <nil>
+
+[go]2022/01/14 15:07:34 [portal_service] - 测试日志服务
+
+[go]2022/01/14 15:15:17 [portal_service] - <nil>
+
+[go]2022/01/14 15:15:18 [portal_service] - 测试日志服务
+
